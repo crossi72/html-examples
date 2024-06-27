@@ -1,0 +1,25 @@
+<HTML>
+	<HEAD>
+		<SCRIPT language="Javascript">
+			document.addEventListener('DOMContentLoaded', my_code);
+	
+			function my_code(){
+				// get the parent element by its ID
+				const myDiv = document.getElementById("my-div");
+	
+				// create a new element
+				const newParagraph = document.createElement("p");
+	
+				// set the text content of the new element
+				newParagraph.textContent = "This is a new paragraph.";
+	
+				// append the new element to the parent element
+				myDiv.appendChild(newParagraph);
+			}
+		</Script>
+	</head>
+	<body>
+		<div id="my-div"></div>
+	</BODY>
+	
+</HTML>

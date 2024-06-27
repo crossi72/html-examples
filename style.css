@@ -1,0 +1,14 @@
+.giallo{
+	background-color: #FF0;
+}
+
+.rosso{
+	background-color: #F00;
+}
+
+div{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 10px;
+}

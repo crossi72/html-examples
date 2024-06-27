@@ -1,0 +1,18 @@
+.da-colorare{
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	float: left;
+}
+
+.bg-rosso{
+	background-color: #F00;
+}
+
+.bg-verde{
+	background-color: #0F0;
+}
+
+.bg-blu{
+	background-color: #00F;
+}
